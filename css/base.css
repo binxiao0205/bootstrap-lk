@@ -1,0 +1,51 @@
+*{padding: 0;margin: 0;}
+body{
+	font-family: "arial, helvetica, sans-serif";
+	color: #000;
+}
+
+.btn-register { 
+  color: #ffffff; 
+  background-color: #0AB4F7; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-register:hover, 
+.btn-register:focus, 
+.btn-register:active, 
+.btn-register.active, 
+.open .dropdown-toggle.btn-register { 
+  color: #ffffff; 
+  background-color: #086DF2; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-register:active, 
+.btn-register.active, 
+.open .dropdown-toggle.btn-register { 
+  background-image: none; 
+} 
+ 
+.btn-register.disabled, 
+.btn-register[disabled], 
+fieldset[disabled] .btn-register, 
+.btn-register.disabled:hover, 
+.btn-register[disabled]:hover, 
+fieldset[disabled] .btn-register:hover, 
+.btn-register.disabled:focus, 
+.btn-register[disabled]:focus, 
+fieldset[disabled] .btn-register:focus, 
+.btn-register.disabled:active, 
+.btn-register[disabled]:active, 
+fieldset[disabled] .btn-register:active, 
+.btn-register.disabled.active, 
+.btn-register[disabled].active, 
+fieldset[disabled] .btn-register.active { 
+  background-color: #0AB4F7; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-register .badge { 
+  color: #0AB4F7; 
+  background-color: #ffffff; 
+}

@@ -1,0 +1,235 @@
+
+/************ 头部开始 ****************/
+
+.head .top-bar{
+	height: 40px;
+	line-height: 39px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.head .top-bar .container-fluid .row>div+div{
+	border-left:1px solid #E0E0E0;
+}
+.head .top-bar .container-fluid .row a{
+	position: relative;
+}
+.head .top-bar .container-fluid .row a img{
+	position: absolute;
+	left:50%;
+	margin-left:-45px;
+	margin-top: -10px;
+	display: none;
+	z-index: 9999;
+}
+.head .top-bar .container-fluid .row a:hover img{
+	display: block;
+}
+
+.head .navbar-lk{
+	background-color: #fff;
+	margin-bottom: 0 ;
+}
+.head .navbar-lk .navbar-brand{
+	height: 70px;
+}
+.head .navbar-lk .navbar-nav a{
+	height: 70px;
+	line-height: 40px;
+}
+.head .navbar-lk .navbar-nav li.active a,
+.head .navbar-lk .navbar-nav li a:hover{
+	background-color: transparent;
+	border-bottom: 2px solid #0AB4F7;
+	color: #000;
+}
+.head .navbar-lk .navbar-toggle{
+	margin-top: 18px;
+}
+/************ 头部结束 ****************/
+/************ banner开始 ****************/
+.banner{
+	
+}
+.banner .item{
+	background: no-repeat center center;
+	background-size: cover;
+}
+@media screen and (min-width:800px) {
+	.banner .item{
+		height: 410px;
+	}
+}
+/************ banner结束 ****************/
+/************ 关于我们开始 ****************/
+.about{
+	padding: 20px 0;
+}
+ .title{
+	color: ;
+}
+ .title .fa{
+	color: #E0E0E0;
+	padding:5px  0 15px;
+}
+ .title .fa-1x{
+	opacity: 0.7;
+}
+.about .container .row p{
+	text-indent: 2em;
+	line-height: 29px;
+}
+/************ 关于我们结束 ****************/
+/************ 产品特色开始 ****************/
+.product{
+	background-color: #f0f0f0;
+	padding: 30px 0;
+	
+}
+.product .nav{
+	font-size: 18px;
+}
+.product .nav a{
+	color: #999;
+}
+.product .nav li.active a{
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid #AC2925;
+	color: #000;
+}
+.product .tab-content{
+	padding-top:20px;
+}
+.product .tab-content .pd-left{
+	padding: 50px 0;
+}
+.product .tab-content .pd-one-1{
+	margin: 15px 0;
+}
+.product .tab-content .pd-one-2{
+	background: transparent;
+}
+.product .tab-content .pd-one-4{
+	margin: 20px 0;
+}
+.product .tab-content .pd-two{
+	margin: 60px 0;
+}
+.product .tab-content .pd-two .lead{
+	font-size: 18px;
+	line-height: 32px;
+}
+/************ 产品特色结束 ****************/
+/************ 热门课程开始 ****************/
+.hot .lesson{
+	padding: 15px 10px;
+}
+.hot .lesson .media-left{
+	width: 20%;
+}
+.hot .lesson .media-body{
+	width: 60%;
+	vertical-align: middle;
+}
+.hot .lesson .media-right{
+	width: 20%;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.hot .container .media-left img{
+	width: 100px;
+	/* height: 100px; */
+}
+/************ 热门课程结束 ****************/
+/************ 友情链接开始 ****************/
+.link{
+	padding: 20px 0;
+}
+.link .logos{
+	text-align: center;
+}
+.link li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 30px;
+}
+.link li img{
+	width: 100px;
+}
+/************ 友情链接结束 ****************/
+/************ footer开始 ****************/
+.footer{
+	width:100%;
+	height: 200px;
+	background: url(../img/map.png) no-repeat center center;
+	background-size: cover;
+	color: #fff;
+}
+.footer .container{
+	width:100%;
+	height: 200px;
+	background-color: rgba(0,0,0,.7);
+}
+.footer .container li{
+	list-style: none;
+}
+.footer .container a{
+	color: #fff;
+}
+.footer .one,.footer .two{
+	padding: 10px;
+	border-right: 1px solid #666;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+ .footer .one li{
+	 line-height: 40px;
+ }
+ .footer .three{
+ 	padding: 10px 50px;
+ 	height: 180px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: flex-start;
+ 	margin-top: 20px;
+ }
+.footer .three a{
+	  margin-right: 15px;
+  }
+.footer .three a .fa-weixin{
+	color: #1BD66B;
+}
+.footer .three a .fa-weibo{
+	color: #FFCD41;
+}
+/************ footer结束 ****************/
+/************ toTop开始 ****************/
+#toTop{
+	position: fixed;
+	top:80%;
+	right:3%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #0AB4F7;
+}
+#toTop .fa{
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 26px;
+	padding-left: 13px;
+}
+/************ toTop结束 ****************/
+input{
+	outline: none;
+	display: block;
+	margin-top: 10px;
+	width: 80%;
+	height: 40px;
+	padding: 5px 20px;
+}
